@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: antiquewhite;
+    line-height: 1.8;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container{
+    margin: auto;
+    width: 430px;
+    padding: 20px;
+}
+
+.form-wrap{
+    background-color:rgb(0,110, 255);
+    padding: 5px 25px;
+    color: aliceblue;
+    border-top: 4px solid #49c1a2;
+    border-radius: 20px;
+}
+
+.form-wrap h1, .form-wrap p{
+text-align: center;
+}
+
+.form-wrap .form-group{
+    margin-top: 15px;
+}
+
+.form-wrap .form-group input{
+    width: 100%;
+    padding: 10px;
+    border: 5px #096568 solid;
+    border-radius: 20px;
+}
+
+.form-wrap .form-group label{
+    display: block;
+    color: #ffffff;
+}
+
+.form-wrap button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #10fffbc3;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s;
+}
+
+.form-wrap button:hover{
+    background-color: #057f84;
+    transition: 1s;
+    color: #ffffff;
+    border: 2px white solid;
+}
+.bottom, .link_class{
+    font-size: 13px;
+}
+
+input{
+    outline: none;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    background-color: #08acd4;
+    border-radius: 20px;
+}
+
+footer a{
+    width: 200px;
+}
+
+.side{
+    width: 200px;
+    height: auto;
+    background-color: #08acd4;
+    border-top-left-radius: 200px;
+}
+
+@media screen and (max-width: 820px){
+    .side{
+        display: none;
+    }
+}
